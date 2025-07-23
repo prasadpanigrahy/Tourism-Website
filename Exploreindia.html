@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExploreIndia - One Page Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .hero {
+            height: 100vh;
+            background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Findian-travel-banners&psig=AOvVaw0SQ1D_2LTFTfyaf5QzkADq&ust=1750774800363000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDkuLreh44DFQAAAAAdAAAAABAE') no-repeat center/cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            background-attachment: fixed;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        footer {
+            background-color: #212529;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ExploreIndia</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Explore Incredible India</h1>
+        <p>Discover destinations, culture, and experiences like never before.</p>
+        <a href="#destinations" class="btn btn-warning mt-3">Start Exploring</a>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="section container">
+        <h2 class="text-center mb-4">Top Destinations</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/goa.jpg" class="card-img-top" alt="Goa">
+                    <div class="card-body">
+                        <h5 class="card-title">Goa</h5>
+                        <p class="card-text">Stunning beaches, nightlife, and Portuguese heritage.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/kashmir.jpg" class="card-img-top" alt="Kashmir">
+                    <div class="card-body">
+                        <h5 class="card-title">Kashmir</h5>
+                        <p class="card-text">Heaven on Earth with snow-capped mountains and lakes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/rajasthan.jpg" class="card-img-top" alt="Rajasthan">
+                    <div class="card-body">
+                        <h5 class="card-title">Rajasthan</h5>
+                        <p class="card-text">Royal palaces, deserts, and vibrant culture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Tour Packages</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Goa Getaway (3N/4D)</h5>
+                            <p class="card-text">₹9,999 per person. Beach resort, sightseeing, water sports.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Royal Rajasthan (5N/6D)</h5>
+                            <p class="card-text">₹15,999 per person. Palaces, camel rides, cultural shows.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Kashmir Delight (4N/5D)</h5>
+                            <p class="card-text">₹14,999 per person. Houseboats, Gulmarg snow, local food.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section container">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">At ExploreIndia, we curate personalized travel experiences to showcase the rich culture, diversity, and beauty of India.</p>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>Our Mission</h4>
+                <p>To inspire travel through authentic and affordable tourism packages.</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Why Choose Us?</h4>
+                <ul>
+                    <li>Local guides with insights</li>
+                    <li>Handpicked experiences</li>
+                    <li>24/7 support</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <h4>Testimonials</h4>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p>"Amazing trip to Kerala. Great service!"</p>
+                    <footer class="blockquote-footer">Ananya & Rohit</footer>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p>"Loved my trip to Rajasthan. Highly recommended!"</p>
+                    <footer class="blockquote-footer">Sameer Joshi</footer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form id="contact-form" class="mb-5">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea id="message" rows="5" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div>
+                <h5>Call Us</h5>
+                <p>+91 9876xx784</p>
+                <h5>Email</h5>
+                <p>support@exploreindia.com</p>
+                <h5>Find Us</h5>
+                <iframe src="https://maps.google.com/maps?q=india&t=&z=4&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 PrasadPanigrahy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("contact-form")?.addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Thanks for contacting us! We'll get back to you soon.");
+            this.reset();
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
